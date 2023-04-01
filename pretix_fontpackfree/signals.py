@@ -430,4 +430,26 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff2",
             },
         },
+        "Prompt": {
+            "regular": {
+                "truetype": basepath + "/Prompt-Regular.ttf",
+                "woff": basepath + "/Prompt-Regular.woff",
+                "woff2": basepath + "/Prompt-Regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/Prompt-Bold.ttf",
+                "woff": basepath + "/Prompt-Bold.woff",
+                "woff2": basepath + "/Prompt-Bold.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/Prompt-Italic.ttf",
+                "woff": basepath + "/Prompt-Italic.woff",
+                "woff2": basepath + "/Prompt-Italic.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/Prompt-Bolditalic.ttf",
+                "woff": basepath + "/Prompt-Bolditalic.woff",
+                "woff2": basepath + "/Prompt-Bolditalic.woff2",
+            },
+        },
     }
