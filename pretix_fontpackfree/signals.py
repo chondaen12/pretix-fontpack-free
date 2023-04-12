@@ -442,4 +442,26 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/Sukhumvit-bold.woff2",
             },           
         },
+        "FC Iconic": {
+            "regular": {
+                "truetype": basepath + "/fc-iconic-regular.ttf",
+                "woff": basepath + "/fc-iconic-regular.woff",
+                "woff2": basepath + "/fc-iconic-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/fc-iconic-bold.ttf",
+                "woff": basepath + "/fc-iconic-bold.woff",
+                "woff2": basepath + "/fc-iconic-bold.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/fc-iconic-italic.ttf",
+                "woff": basepath + "/fc-iconic-italic.woff",
+                "woff2": basepath + "/fc-iconic-italic.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/fc-iconic-bold-italic.ttf",
+                "woff": basepath + "/fc-iconic-bold-italic.woff",
+                "woff2": basepath + "/fc-iconic-bold-italic.woff2",
+            },
+        },
     }
